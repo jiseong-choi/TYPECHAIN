@@ -27,4 +27,16 @@ It keep watching ur code and if it changes then recompile the code.
 npm install tsc-watch --save --dev or yarn add tsc-watch --dev
 */
 console.log(text);
+const person = {
+    name: "hyuntak",
+    age: 26,
+    gender: "male"
+};
+const sayHello = ({ name, age, gender }) => {
+    return `Hello ${name},you are ${age}, you are a ${gender}`;
+};
+const result = sayHello(person);
+console.log(result);
+class Man {
+}
 //# sourceMappingURL=index.js.map

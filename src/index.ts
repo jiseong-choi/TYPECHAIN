@@ -28,4 +28,28 @@ npm install tsc-watch --save --dev or yarn add tsc-watch --dev
 */
 console.log(text)
 
+interface Human {
+    name: string, 
+    age: number,
+    gender: string
+}//interface declare the type of something or explain the something
+
+const person = {
+    name: "hyuntak",
+    age: 26,
+    gender: "male"
+}
+
+const sayHello = ({name,age,gender}: Human):string => {
+    return `Hello ${name},you are ${age}, you are a ${gender}`;
+}
+
+const result = sayHello(person) 
+console.log(result)
+
+class Man {
+    
+}
+
 export { };
+
