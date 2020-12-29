@@ -21,5 +21,10 @@ If remove the ? of the parameter it will not run.
 That's why we using Typescript.
 These functions make the results of your code more predictable.
 */
+/*
+Now it is a tip for Typescript. tsc-watch module is good for development tool.
+It keep watching ur code and if it changes then recompile the code.
+npm install tsc-watch --save --dev or yarn add tsc-watch --dev
+*/
 console.log(text);
 //# sourceMappingURL=index.js.map
