@@ -19,6 +19,7 @@ const text = sayHi("jiseong-choi", 19);
 /*
 If remove the ? of the parameter it will not run.
 That's why we using Typescript.
+These functions make the results of your code more predictable.
 */
 console.log(text);
 //# sourceMappingURL=index.js.map
