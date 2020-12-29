@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/jiseong-choi/TYPECHAIN.git",
   "author": "jiseong-choi",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart" :"tsc"
+  }
 }
