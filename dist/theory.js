@@ -46,4 +46,4 @@ class Man {
 }
 const jiseong = new Man("jiseong", 19, "male");
 console.log(sayHello(jiseong));
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=theory.js.map
