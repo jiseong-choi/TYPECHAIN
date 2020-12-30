@@ -38,5 +38,12 @@ const sayHello = ({ name, age, gender }) => {
 const result = sayHello(person);
 console.log(result);
 class Man {
+    constructor(name, age, gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
 }
+const jiseong = new Man("jiseong", 19, "male");
+console.log(sayHello(jiseong));
 //# sourceMappingURL=index.js.map
