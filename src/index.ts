@@ -38,7 +38,7 @@ class Block {
     }
 }
 
-const genesisBlock: Block = new Block(0, "202020202020", "", "Hello", 123456)
+const genesisBlock: Block = new Block(0, "202120212021", "", "2021", 20212021)
 
 let blockchain: Block[] = [genesisBlock];
 
@@ -91,8 +91,21 @@ const addBlock = (candidateblock: Block): void => {
     }
 }
 
-createNewBlock("second Block")
-createNewBlock("third Block")
-createNewBlock("fourth block")
+createNewBlock("DoctypeDT")
+createNewBlock("Hyuntak")
+createNewBlock("eeLu175")
+createNewBlock("워이")
+createNewBlock("원선일")
+createNewBlock("설(빵먹자)")
+createNewBlock("녹색치킨")
+createNewBlock("CPPrhcn")
+createNewBlock("가루남")
+createNewBlock("금사과")
+createNewBlock("디자인은 처음이니깐")
+createNewBlock("코양님")
+createNewBlock("찬미님")
+createNewBlock("호시")
+createNewBlock("하늘")
+createNewBlock("자스고")
 
 console.log(blockchain)
